@@ -1,0 +1,23 @@
+package com.example.demo.dto;
+
+public class mensaje {
+	
+	private string mensaje;
+	
+	
+	
+
+	public mensaje(string mensaje) {
+		this.mensaje = mensaje;
+	}
+
+	public string getMensaje() {
+		return mensaje;
+	}
+
+	public void setMensaje(string mensaje) {
+		this.mensaje = mensaje;
+	}
+	
+
+}
